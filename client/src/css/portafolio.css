@@ -1,0 +1,38 @@
+body,
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: scroll;
+}
+
+.header {
+  font-family: "algerian";
+  color: red;
+  font-size: 30px;
+}
+
+.card-header {
+  background-color: rgb(204, 228, 238);
+  padding: 0;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.btn {
+  margin-left: 0.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.modal-content {
+  height: 100%;
+  overflow: auto;
+}

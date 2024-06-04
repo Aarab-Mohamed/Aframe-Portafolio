@@ -1,0 +1,6 @@
+.a-enter-vr-button,
+.a-enter-ar-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

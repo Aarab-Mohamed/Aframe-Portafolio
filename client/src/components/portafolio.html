@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="Portafolio" content="Portafolio" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Load Babel to enable JSX and ES6 syntax. -->
+    <script
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+      crossorigin
+    ></script>
+
+    <!-- Your React component -->
+    <script type="text/babel">
+      const CompCreateData = () => {
+        return (
+          <div>
+            {/* Contenido de CompCreateData */}
+            <h1>CompCreateData</h1>
+            <p>Este es el contenido de CompCreateData</p>
+          </div>
+        );
+      };
+
+      ReactDOM.render(<CompCreateData />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
